@@ -69,7 +69,7 @@ if chosen_text > 0 and chosen_text < 4:
                     d[len(word)] = d[len(word)] + 1
                 else:
                     d[len(word)] = 1
-
+                    
     print("There are ",titlecase," titlecase words")
     print("There are ",uppercase," uppercase words")
     print("There are ",lowercase," lowercase words")
