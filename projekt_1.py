@@ -70,12 +70,11 @@ if chosen_text > 0 and chosen_text < 4:
                 else:
                     d[len(word)] = 1
                     
-    print("There are ",titlecase," titlecase words")
-    print("There are ",uppercase," uppercase words")
-    print("There are ",lowercase," lowercase words")
-    print("There are ",digit," numeric strings")
-    print("The sum of all the numbers ",sum)
-    print("-"* 20 ,"\nNR.| LEN |OCCURENCES\n","-"* 20)
+    print("There are ",titlecase," titlecase words\nThere are ",uppercase," uppercase words\n",
+          "There are ",lowercase," lowercase words\n",
+          "There are ",digit," numeric strings\n",
+          "The sum of all the numbers ",sum,"\n",
+          "-"* 20 ,"\nNR.| LEN |OCCURENCES\n","-"* 20)
     for key in list(d.keys()):
                     print(i,"|",key, "|", d[key])
                     i += 1
